@@ -1,7 +1,7 @@
 "use client"
 
 import React from 'react';
-import menuJson from '@/app/json/menu.json'
+import menuJson from '@/json/menu.json'
 import Link from 'next/link';
 import { usePathname } from 'next/navigation';
 

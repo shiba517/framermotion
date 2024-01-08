@@ -1,12 +1,7 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
 import './globals.css'
-import Link from 'next/link'
-// import menuJson from '@/json/menu.json'
-import menujson from '@/app/json/menu.json'
 import Navigation from '@/components/Navigation'
-
-const menuData = menujson
 
 const inter = Inter({ subsets: ['latin'] })
 

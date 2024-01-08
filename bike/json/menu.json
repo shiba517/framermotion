@@ -2,7 +2,7 @@
     {
     "_id": 1,
     "title": "Home",
-    "href": ""
+    "href": "/#"
     },
     {
     "_id": 2,
@@ -13,5 +13,15 @@
     "_id": 3,
     "title": "Events",
     "href": "/events"
+    },
+    {
+    "_id": 4,
+    "title": "Gallery",
+    "href": "/gallery"
+    },
+    {
+    "_id": 5,
+    "title": "Products",
+    "href": "/products"
     }
 ]
