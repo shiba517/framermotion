@@ -1,4 +1,12 @@
 import React from 'react';
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: {
+    absolute: 'Absolute Events'
+  },
+  description: 'This is the description for the Events page',
+}
 
 const page = () => {
   return (
