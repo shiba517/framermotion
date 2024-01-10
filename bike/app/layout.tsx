@@ -23,7 +23,7 @@ export default function RootLayout({
         </header>
         {children}
         <footer className='p-2 bg-blue-950 text-slate-300'>This is the footer</footer>
-        </body>
+      </body>
     </html>
   )
 }
