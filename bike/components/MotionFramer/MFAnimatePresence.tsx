@@ -18,10 +18,9 @@ const variantsWithState = {
 const MFAnimatePresence = (props: any) => {
     // const router = useRouter()
   return (
-    <AnimatePresence>
+    <AnimatePresence mode="wait" onExitComplete={() => props.setShowModal(false)}>
         <motion.div
-        className='bg-green-900'
-        // key={router.route}
+        className=''
         initial={{ opacity: 0, x: -1000, y: 0 }}
         animate={{ opacity: 1, x: 0, y: 0 }}
         exit={{ opacity: 0, x: -200, y: 0 }}
