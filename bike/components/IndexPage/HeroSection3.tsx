@@ -1,13 +1,13 @@
 import React from 'react';
 import baseInfoJson from '@/json/baseInfo.json'
 import { motion } from 'framer-motion';
-import { heroHeaderVariant, heroSubHeaderVariant, uniButtonVariant } from '@/app/_lib/framer-motion-variants'
+import { heroHeaderVariant, heroSubHeaderVariant } from '@/app/_lib/framer-motion-variants'
+import MFButton from '../MotionFramer/MFButton';
 
 const baseInfoData = baseInfoJson[0]
 
 const headerVariant = heroHeaderVariant
 const subHeaderVariant = heroSubHeaderVariant
-const buttonVariant = uniButtonVariant
 
 const HeroSection3 = () => {
   return (
@@ -24,15 +24,14 @@ const HeroSection3 = () => {
         initial='initial'
         animate='animate'
         >{ baseInfoData.subtitle }</motion.p>
-        <div className='p-2'>
-            <motion.button
-            className='bg-purple-950 px-4 py-2'
-            variants={buttonVariant}
-        initial='initial'
-        animate='animate'
-        whileHover='whileHover'
-            >button</motion.button>
-        </div>
+        <motion.div 
+        className='p-2'
+        initial={{opacity: 0}}
+        animate={{
+            opacity: 1
+        }}
+        transition={{delay: 2}}
+        ><MFButton></MFButton></motion.div>
     </motion.div>
   );
 }
