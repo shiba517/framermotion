@@ -1,57 +1,13 @@
 import React from 'react';
 import baseInfoJson from '@/json/baseInfo.json'
 import { motion } from 'framer-motion';
+import { heroHeaderVariant, heroSubHeaderVariant, uniButtonVariant } from '@/app/_lib/framer-motion-variants'
 
 const baseInfoData = baseInfoJson[0]
 
-const headerVariant = {
-    initial: {
-        y: '-50vh',
-        opacity: 0
-    },
-    animate: {
-        y: 0,
-        opacity: 1,
-        transition: {
-            type: 'spring',
-            mass: 0.4,
-            damping: 4,
-            duration: 1,
-        }
-    }
-}
-
-const subHeaderVariant = {
-    initial: {
-        opacity: 0
-    },
-    animate: {
-        opacity: 1,
-        rotateZ: 360,
-        transition: {
-            duration: 1,
-            delay: 1
-        }
-    }
-}
-
-const buttonVariant = {
-    initial: {
-        opacity: 0
-    },
-    animate: {
-        opacity: 1,
-        // rotateZ: 360,
-        transition: {
-            duration: 1,
-            delay: 2
-        }
-    },
-    whileHover: {
-        scale: 1.1, 
-        boxShadow: '0px 0px 8px rgb(255, 255, 255'
-    }
-}
+const headerVariant = heroHeaderVariant
+const subHeaderVariant = heroSubHeaderVariant
+const buttonVariant = uniButtonVariant
 
 const HeroSection3 = () => {
   return (
