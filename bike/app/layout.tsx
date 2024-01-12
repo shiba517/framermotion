@@ -19,7 +19,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={`${inter.className} bg-yellow-300`}>
+      <body className={`${inter.className} bg-yellow-300 flex flex-col h-screen justify-between`}>
         <header className='p-2 bg-blue-950 text-slate-300'>
           <Navigation></Navigation>
         </header>

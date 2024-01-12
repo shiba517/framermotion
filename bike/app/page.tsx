@@ -6,6 +6,7 @@ import IndexPage from '@/components/IndexPage/IndexPage'
 import MFAnimatePresence from '@/components/MotionFramer/MFAnimatePresence';
 import FramerModal from '@/components/MotionFramer/FramerModal';
 import { useState } from 'react';
+import HeroSection3 from '@/components/IndexPage/HeroSection3';
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false)
@@ -17,9 +18,10 @@ export default function Home() {
     //   <HeroSection2></HeroSection2>
     // </MFAnimatePresence>
     
-    <main>
+    <main className='h-full bg-green-400'>
       <FramerModal showModal={showModal} setShowModal={setShowModal}></FramerModal>
-      <HeroSection2 setShowModal={setShowModal}></HeroSection2>
+      <HeroSection3></HeroSection3>
+      {/* <HeroSection2 setShowModal={setShowModal}></HeroSection2> */}
     </main>
 
     // <main>

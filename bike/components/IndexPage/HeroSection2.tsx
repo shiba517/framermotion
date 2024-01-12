@@ -103,8 +103,9 @@ const HeroSection2 = ({setShowModal}: any) => {
       className="bg-yellow-600 p-4 w-fit mx-auto"
       animate={{fontSize: 110, x: 100, y: 100, backgroundColor: '#ff2994'}}
       >
-        <motion.h2>Pedal Pulse</motion.h2>
+        <motion.h2>Pedal Pulse!</motion.h2>
       </motion.div>
+      
       { showTitle && (
         <motion.div
         className="bg-purple-800 p-4 w-fit mx-auto"
