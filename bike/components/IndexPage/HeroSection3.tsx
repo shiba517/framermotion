@@ -11,7 +11,7 @@ const subHeaderVariant = heroSubHeaderVariant
 
 const HeroSection3 = () => {
   return (
-    <motion.div className='bg-black text-white h-full flex flex-col items-center justify-center'>
+    <motion.div className='bg-black text-white h-screen flex flex-col items-center justify-center'>
         <motion.h2 
         className='uppercase font-extrabold text-5xl text-yellow-500'
         variants={headerVariant}
@@ -27,9 +27,7 @@ const HeroSection3 = () => {
         <motion.div 
         className='p-2'
         initial={{opacity: 0}}
-        animate={{
-            opacity: 1
-        }}
+        animate={{opacity: 1}}
         transition={{delay: 2}}
         ><MFButton></MFButton></motion.div>
     </motion.div>

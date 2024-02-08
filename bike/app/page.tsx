@@ -7,6 +7,14 @@ import MFAnimatePresence from '@/components/MotionFramer/MFAnimatePresence';
 import FramerModal from '@/components/MotionFramer/FramerModal';
 import { useState } from 'react';
 import HeroSection3 from '@/components/IndexPage/HeroSection3';
+import AboutSection from '@/components/IndexPage/AboutSection';
+import GallerySection from '@/components/IndexPage/GallerySection';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faBicycle, faHeart, faClock, faSeedling } from '@fortawesome/free-solid-svg-icons'
+import { library } from '@fortawesome/fontawesome-svg-core'
+
+library.add(faBicycle, faHeart, faClock, faSeedling)
 
 export default function Home() {
   const [showModal, setShowModal] = useState(false)
@@ -21,7 +29,9 @@ export default function Home() {
     <main className='h-full bg-green-400'>
       <FramerModal showModal={showModal} setShowModal={setShowModal}></FramerModal>
       <HeroSection3></HeroSection3>
-      {/* <HeroSection2 setShowModal={setShowModal}></HeroSection2> */}
+      <AboutSection></AboutSection>
+      <GallerySection></GallerySection>
+      <HeroSection2 setShowModal={setShowModal}></HeroSection2>
     </main>
 
     // <main>
