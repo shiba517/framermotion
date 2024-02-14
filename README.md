@@ -3,6 +3,11 @@
 ## Project aim:
 Showcase my skills with NextJS 14, TypeScript and MotionFramer
 
+## How to get project up and running
+- cd into bike
+- in terminal, run 'npm install'
+- to get project running on web browser, run 'npm run dev'. Then click on the local host 300 link
+
 ## Useful links
 - NextJS 14 - https://nextjs.org/blog/next-14
 - TypeScript - https://www.typescriptlang.org/
