@@ -24,3 +24,5 @@ Showcase my skills with NextJS 14, TypeScript and MotionFramer
 - colour scheme - https://www.shutterstock.com/blog/sports-color-palettes-branding-marketing
 
 
+## FEATURE TO BE ADDED
+- default images
