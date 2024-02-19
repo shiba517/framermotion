@@ -20,7 +20,7 @@ const v1 = {
 
 const ShadCarousel = () => {
   return (
-    <div className='bg-green-600 pb-10 text-center'>  
+    <div className='bg-green-600 px-10 pb-10 text-center'>  
       <IndexTitle title={"Gallery"}></IndexTitle>
 
       <motion.div 

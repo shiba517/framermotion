@@ -7,8 +7,9 @@ type TIndexTitle = {
 
 const IndexTitle = ({title, subTitle}: TIndexTitle) => {
   return (
-    <div className='py-8'>
-      <h2 className='text-4xl font-extrabold uppercase text-yellow-500'>{title}</h2>
+    <div className='py-8 text-start'>
+      <h2 className='text-8xl font-extrabold uppercase text-yellow-500'>{title}</h2>
+      {/* <p className='text-lg font-bold'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus provident culpa </p> */}
     </div>
   );
 }
