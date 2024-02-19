@@ -8,11 +8,13 @@ import FramerModal from '@/components/MotionFramer/FramerModal';
 import { useState } from 'react';
 import HeroSection3 from '@/components/IndexPage/HeroSection3';
 import AboutSection from '@/components/IndexPage/AboutSection';
-import GallerySection from '@/components/IndexPage/GallerySection';
+import TeamSection from '@/components/IndexPage/TeamSection';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBicycle, faHeart, faClock, faSeedling } from '@fortawesome/free-solid-svg-icons'
 import { library } from '@fortawesome/fontawesome-svg-core'
+import GallerySection from '@/components/IndexPage/GallerySection';
+import ShadCarousel from '@/components/ShadComponents/ShadCarousel';
 
 library.add(faBicycle, faHeart, faClock, faSeedling)
 
@@ -30,8 +32,10 @@ export default function Home() {
       <FramerModal showModal={showModal} setShowModal={setShowModal}></FramerModal>
       <HeroSection3></HeroSection3>
       <AboutSection></AboutSection>
-      <GallerySection></GallerySection>
-      <HeroSection2 setShowModal={setShowModal}></HeroSection2>
+      {/* <GallerySection></GallerySection> */}
+      <ShadCarousel></ShadCarousel>
+      {/* <TeamSection></TeamSection> */}
+      {/* <HeroSection2 setShowModal={setShowModal}></HeroSection2> */}
     </main>
 
     // <main>

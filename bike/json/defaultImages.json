@@ -1,0 +1,22 @@
+[
+    {
+    "title": "Default Image 1",
+    "imageFileName": "default1.jpg"
+    },
+    {
+    "title": "Default Image 2",
+    "imageFileName": "default2.jpg"
+    },
+    {
+    "title": "Default Image 3",
+    "imageFileName": "default3.jpg"
+    },
+    {
+    "title": "Default Image  4",
+    "imageFileName": "default4.jpg"
+    },
+    {
+    "title": "Default Image  5",
+    "imageFileName": "default5.jpg"
+    }
+]

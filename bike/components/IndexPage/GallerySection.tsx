@@ -1,10 +1,23 @@
-import React from 'react';
+import { useState } from "react";
+import IndexTitle from "../IndexTitle";
+import { motion, useAnimation, useInView } from 'framer-motion';
+import Image from "next/image";
+import defaultImage from '@/public/images/default.jpg'
+import defaultImageData from '@/json/defaultImages.json'
+import ImageSlider from "../ImageSlider";
+
+const galleryData = defaultImageData
 
 const GallerySection = () => {
   return (
-    <div className='bg-yellow-950 text-slate-300 h-screen text-center'>
-      <h2>Gallery section</h2>
-      <button className='p-4 bg-green-500 px-4 py-2'>more</button>
+    <div className="px-10 bg-green-800 pb-10 text-center">
+      <IndexTitle title='gallery'></IndexTitle>
+
+      <ImageSlider></ImageSlider>
+
+      <div>
+        <p>main content</p>
+      </div>
     </div>
   );
 }
