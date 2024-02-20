@@ -15,6 +15,7 @@ import { faBicycle, faHeart, faClock, faSeedling } from '@fortawesome/free-solid
 import { library } from '@fortawesome/fontawesome-svg-core'
 import GallerySection from '@/components/IndexPage/GallerySection';
 import ShadCarousel from '@/components/ShadComponents/ShadCarousel';
+import ArticleSection from '@/components/IndexPage/ArticleSection';
 
 library.add(faBicycle, faHeart, faClock, faSeedling)
 
@@ -28,9 +29,10 @@ export default function Home() {
     //   <HeroSection2></HeroSection2>
     // </MFAnimatePresence>
     
-    <main className='h-full bg-green-400'>
+    <main className='h-full'>
       <FramerModal showModal={showModal} setShowModal={setShowModal}></FramerModal>
       <HeroSection3></HeroSection3>
+      <ArticleSection></ArticleSection>
       <AboutSection></AboutSection>
       {/* <GallerySection></GallerySection> */}
       <ShadCarousel></ShadCarousel>

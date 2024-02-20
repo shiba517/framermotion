@@ -1,0 +1,26 @@
+[
+    {
+        "_id": 1,
+        "title": "trade profound",
+        "content": "He stared out the window at the snowy field. He'd been stuck in the house for close to a month and his only view of the outside world was through the window.",
+        "imageFileName": "default1.jpg"
+    },
+    {
+        "_id": 2,
+        "title": "revolut want",
+        "content": "There wasn't much to see. It was mostly just the field with an occasional bird or small animal who ventured into the field.",
+        "imageFileName": "default2.jpg"
+    },
+    {
+        "_id": 3,
+        "title": "pride honor",
+        "content": "As he continued to stare out the window, he wondered how much longer he'd be shackled to the steel bar inside the house.",
+        "imageFileName": "default3.jpg"
+    },
+    {
+        "_id": 4,
+        "title": "perceive flawed",
+        "content": "I bought two chocolate lollipops and two chocolate-caramel-almond things.",
+        "imageFileName": "default4.jpg"
+    }
+]

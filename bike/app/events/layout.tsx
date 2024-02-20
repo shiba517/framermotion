@@ -15,7 +15,7 @@ export default function MainPageLayout({
   }) {
     return (
       <div>
-        <div className="bg-green-400 p-4">Main Page Layout</div>
+        <div className="bg-black p-4">Main Page Layout</div>
         {children}
       </div>
     )
