@@ -16,6 +16,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import GallerySection from '@/components/IndexPage/GallerySection';
 import ShadCarousel from '@/components/ShadComponents/ShadCarousel';
 import ArticleSection from '@/components/IndexPage/ArticleSection';
+import TeamSection2 from '@/components/IndexPage/TeamSection2';
 
 library.add(faBicycle, faHeart, faClock, faSeedling)
 
@@ -32,10 +33,11 @@ export default function Home() {
     <main className='h-full'>
       <FramerModal showModal={showModal} setShowModal={setShowModal}></FramerModal>
       <HeroSection3></HeroSection3>
-      <ArticleSection></ArticleSection>
-      <AboutSection></AboutSection>
+      <TeamSection2></TeamSection2>
+      {/* <ArticleSection></ArticleSection> */}
+      {/* <AboutSection></AboutSection> */}
       {/* <GallerySection></GallerySection> */}
-      <ShadCarousel></ShadCarousel>
+      {/* <ShadCarousel></ShadCarousel> */}
       {/* <TeamSection></TeamSection> */}
       {/* <HeroSection2 setShowModal={setShowModal}></HeroSection2> */}
     </main>

@@ -74,3 +74,10 @@
     @apply bg-background text-foreground;
   }
 }
+
+.my-bg {
+  background-image: url('/images/default6.jpg');
+  background-size: cover;
+  height: 100%;
+  min-height: 100vh;
+}

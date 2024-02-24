@@ -1,0 +1,16 @@
+[
+    {
+        "_id": 1,
+        "title": "Murali Archelaos",
+        "position": "Founder",
+        "content": "He stared out the window at the snowy field. He'd been stuck in the house for close to a month and his only view of the outside world was through the window.",
+        "imageFileName": "staff_default4.jpg"
+    },
+    {
+        "_id": 2,
+        "title": "Terpsich Muireann",
+        "position": "Co-founder",
+        "content": "There wasn't much to see. It was mostly just the field with an occasional bird or small animal who ventured into the field.",
+        "imageFileName": "staff_default5.jpg"
+    }
+]
